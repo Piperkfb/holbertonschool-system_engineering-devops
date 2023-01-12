@@ -1,0 +1,1 @@
+one command does all!
