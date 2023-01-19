@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #Number 9 will say hi
 x=1
-while [ $x -le 9 ]
+while [ $x -le 10 ]
 do
 	echo "Best School"
 	x=$(( x+1 ))
-if [ $x = 9 ]
+if [ $x = 10 ]
 then echo "Hi"
 fi
 done
