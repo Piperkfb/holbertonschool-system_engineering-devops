@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#-v Displays Chinese goodluck and badluck numbers
+x=1
+while [ $x -le 8 ]
+do
+	x=$(( x+1 ))
+	echo "Best School"
+if [ $x = 4 ]
+then 
+	echo "bad luck"
+elif [ $x = 7 ]
+then
+	echo "good luck"
+fi
+done
