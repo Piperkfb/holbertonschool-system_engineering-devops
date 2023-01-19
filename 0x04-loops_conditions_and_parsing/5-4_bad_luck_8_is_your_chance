@@ -11,5 +11,7 @@ then
 elif [ $x = 7 ]
 then
 	echo "good luck"
+else 
+	continue
 fi
 done
