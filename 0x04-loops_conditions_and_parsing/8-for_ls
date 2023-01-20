@@ -2,5 +2,5 @@
 #Display contents of directories
 for x in "-"
 do
-	find . | cut -d $x -f2- 
+	ls | cut -d $x -f2- 
 done
