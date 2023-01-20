@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#displays "To infinity and byond indefinitely
+x=1
+while [ $x -eq 1 ]
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
