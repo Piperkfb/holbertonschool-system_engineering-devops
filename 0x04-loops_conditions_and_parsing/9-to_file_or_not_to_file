@@ -5,6 +5,7 @@ then
 	echo "school file exists"
 else
 	echo "school file does not exist"
+	exit
 fi
 if [ -s school ]
 then
