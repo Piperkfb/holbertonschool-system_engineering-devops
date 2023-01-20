@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Display contents of directories
+for x in '-'
+do
+	ls | cut -d $x -f2- 
+done
