@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Display runninf processes. user oriented format, hierachal
+ps aux
