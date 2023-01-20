@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+#I'll need to use the remainder functions to find multiples of number. If it comes back as zero, echo the word
+x=1
+while [ $x -le 100 ]
+do
+	if (( x % 3 == 0 )) && (( x % 5 == 0 ))
+	then 
+		echo "FizzBuzz"
+	((x++))
+	else
+		continue
+fi
+	if (( x % 3 == 0 )) && [ $(( x % 5 )) -ne 0 ]
+	then
+		echo "Fizz"
+	((x++))
+	else
+		continue
+fi
+	if (( x % 5 == 0 )) && [ $(( x % 3 )) -ne 0 ]
+	then
+		echo "Buzz"
+	((x++))
+	else
+		continue
+fi
+	echo "$x"
+done
