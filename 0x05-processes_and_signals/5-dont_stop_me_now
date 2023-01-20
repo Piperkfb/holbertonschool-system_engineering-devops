@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Murders Buzz Lightyear
+x=$(pgrep 4-to-infinity)
+kill $x
