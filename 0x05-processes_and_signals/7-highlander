@@ -1,0 +1,1 @@
+trap "echo I am invincible!!!" SIGTERM
