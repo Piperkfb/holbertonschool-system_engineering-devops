@@ -6,4 +6,4 @@ do
 	echo "To infinity and beyond"
 	sleep 2
 done
-trap echo "I am invincible!!!" SIGTERM
+trap 'echo "I am invincible!!!"' SIGTERM
