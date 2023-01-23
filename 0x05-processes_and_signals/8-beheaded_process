@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Kill what once was immortal
+pid=$(pgrep -f "7-highlander")
+kill -9 "$pid"
